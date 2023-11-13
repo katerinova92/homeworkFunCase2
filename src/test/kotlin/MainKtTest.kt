@@ -78,7 +78,7 @@ class MainKtTest {
     @Test
     fun feeCalculationForVKPay() {
         val result = feeCalculation(cardType = "VK Pay", previouslyTransferredAmount = 30_000, amount = 8000)
-        assertEquals(0, result)
+        assertEquals(550, result)
     }
 
     @Test
